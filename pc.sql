@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Tábla szerkezet ehhez a táblához `parts`
 --
 
-CREATE TABLE IF NOT EXISTS `pc`;
+CREATE DATABASE IF NOT EXISTS `pc`;
 USE `pc`;
 
 CREATE TABLE `parts` (
